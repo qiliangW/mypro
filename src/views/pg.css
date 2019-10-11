@@ -1,0 +1,65 @@
+.el-button{
+    border-radius: 0 !important;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.my{
+   /* // width:100%; */
+    height:200px;
+   
+    /* display:flex;
+    align-items: stretch; */
+    
+
+}
+.my{
+    /* overflow: hidden; */
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: pink;
+}
+
+.my li {
+   /* // position: absolute; */
+   float: left;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    /* width:200px; */
+    height:100px;
+    background: black;
+
+    /* width:400px; */
+}
+.container {
+    /* width: 100%;
+    height: 200px;
+    display: flex; */
+}
+.main {
+    width: 100px;
+    text-align: center;
+    /* float: left; */
+    background-color: lightgreen;
+    height: 300px;
+}
+.left {
+    height: 300px;
+    float: left;
+    width: 50%;
+    margin-left: -50px;
+    background-color: pink;
+}
+.right {
+    height: 300px;
+    float: left;;
+    width: 50%;
+    margin-right: -10px;
+    background-color: cornflowerblue;
+}
